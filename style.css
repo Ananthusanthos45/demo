@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+    color:white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+
+}
+h2:hover{
+
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.col{
+    flex: 1;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f0f0f0; /* Background color of the boxes */
+            text-align: left;
+}
+.col p{
+margin-bottom: 10px;
+line-height: 1.6;
+background-color: #444;
+}
+.col h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #444;
+}
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    position:sticky
+    text-align: center;
+    padding: 0.5em 0;
+}
+nav ul{
+    display :flex;
+    padding:20px;
+}
+
+nav ul li a {
+    justify-content: space-evenly;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    margin: 10px 0;
+}
+
+.bio {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.projects {
+    margin-top: 50px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+#pic{
+    display:flex;
+}
+#pic img{
+    width:575px;
+    height: 400px;
+}
+.gallery{
+    justify-content: space-between;
+    margin: left 100px;   
+}
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px rgb(43, 65, 6);
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+
+}
